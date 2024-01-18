@@ -1,3 +1,33 @@
 .text-sm{
 font-size: 10px;
 }
+.inputField{
+    position: relative;
+}
+.inputField input{
+    width: 100%;
+    padding: 10px 15px;
+    caret-color: red;
+    outline: none;
+    background: #e7e7e7;
+    border: none;
+
+}
+.form__icon{
+    position: absolute;
+    top: 43px;
+    right: 25px;
+}
+.form__icon span{
+    cursor: pointer;
+}
+.color{
+    color: red;
+}
+.login__btn button{
+    width: 100%;
+    padding: 10px 15px;
+    color: #fff;
+    outline: none;
+    border: none;
+}
